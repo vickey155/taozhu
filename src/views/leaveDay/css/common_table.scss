@@ -1,0 +1,113 @@
+//table 样式
+.table-box{
+  .tdth{
+    padding:0 5px;
+    //-min-width: 100px;
+    height:35px;
+    .cell{
+      padding: 0;
+      text-align: center;
+    }
+  }
+  table{
+   // overflow: hidden;
+    th{
+      @extend .tdth;
+    }
+    td{
+      @extend .tdth;
+
+    }
+  }
+  .el-table{
+    th{
+      .cell{
+      }
+    }
+    td{
+      .cell{
+        padding:0;
+        line-height: 22px;
+        .iconfont{
+          font-size:20px;
+        }
+      }
+    }
+    .is-left{
+      .cell{
+        text-align: left;
+        padding: 0 5px;
+      }
+    }
+    .is-leaf{
+      .cell{
+        text-align: center;
+      }
+    }
+  }
+}
+
+.right-wrapper-two{
+  $leftw:240px;
+  height: 100%;
+  padding:0;
+  background-color: #fff;
+  .wrapper-left{
+    float: left;
+    width: $leftw;
+    height: 100%;
+    //padding-right:20px;
+   // overflow-y: auto;
+  }
+  .right-cont{
+    overflow-y: auto;
+    float: left;
+    width: calc(100% - 240px);
+    height: calc(100% - 50px);
+    padding:40px 20px;
+    .table-wrapper{
+      min-width: 720px;
+    }
+  }
+  .filter-wrapper{
+    min-width: 760px;
+  }
+  .el-row{
+    margin-bottom: 10px;
+
+  }
+  .big-tree-wrap{
+    height:100%;
+    border:1px solid #d1dbe5;
+    border-top:0;
+    overflow-y: auto;
+    .el-tree{
+      border:0;
+      padding-bottom: 10px;
+    }
+  }
+
+}
+
+.person-wrapper{
+  .right-cont{
+    width: 100%;
+  }
+}
+.right-wrapper-box{
+  height: 100%;
+  padding: 40px 20px 0;
+  background-color: #fff;
+  .table-wrapper{
+    min-width: 720px;
+  }
+
+  .filter-wrapper{
+    min-width: 760px;
+  }
+  .el-row{
+    margin-bottom: 10px;
+
+  }
+}
+

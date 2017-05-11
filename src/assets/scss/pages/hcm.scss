@@ -1,0 +1,31 @@
+.hcm_page{
+  .left-tree{
+    width: 240px;
+    height: 100%;
+    float: left;
+    .btn-group{
+      height: 44px;
+      border-right: 1px solid #d1dbe5;
+      li{
+        float: left;
+        text-align: center;
+        width: 25%;
+        line-height: 44px;
+        cursor: pointer;
+      }
+    }
+    .el-tree{
+      width: 100%;
+      height: calc(100% - 30px);
+      overflow: auto;
+    }
+
+  }
+
+  .iconfont{
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
+
+}

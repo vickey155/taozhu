@@ -1,0 +1,30 @@
+
+//文字排版
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+
+
+//浮动设置
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.clearfix{
+  &:after,&:before{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+    visibility: hidden;
+    content: ",";
+  }
+}

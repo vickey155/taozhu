@@ -1,0 +1,27 @@
+.personBox{
+  .el-dialog{
+    width: 500px;
+
+  }
+  .el-dialog__body{
+    padding-top: 20px;
+  }
+  h4{
+    color: #06f;
+    margin-bottom: 15px;
+  }
+  .el-form-item{
+    height: 30px;
+    margin-bottom: 15px;
+    .el-form-item__label{
+      padding: 0 10px 0 0;
+      line-height: 30px;
+    }
+    .el-form-item__content{
+      height: 30px;
+    }
+    input{
+      height: 30px;
+    }
+  }
+}

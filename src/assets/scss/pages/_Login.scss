@@ -1,0 +1,62 @@
+html,body,#app{
+  height: 100%;
+  width: 100%;
+}
+//登录页背景
+.login_content {
+  height: 100%;
+  width: 100%;
+  background-image: url('/static/images/loginbg.jpg');
+  background-position: center center ;
+  background-size: cover;
+}
+//登录页头部
+.login_header{
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(255,255,255,.3);
+  box-shadow: 0 0 5px #333;
+  margin-bottom: 80px;
+  span{
+    color: #ff7217;
+  }
+}
+
+//登录窗口
+.login_form_box{
+  color: #fff;
+  width: 550px;
+  padding: 40px;
+  margin: 0 auto;
+  background: hsla(0,0%,100%,.3);
+  box-shadow: 0 0 5px #333;
+  .login_form_box_title{
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .ivu-form .ivu-form-item-label{
+    color: #fff;
+    font-size: 14px;
+  }
+  .ivu-input{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 36px;
+  }
+}
+
+
+//登录窗口其他
+.login_other{
+  margin-top: 25px;
+  font-size: 14px;
+  hr{
+    margin: 20px 0;
+  }
+}

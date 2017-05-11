@@ -1,0 +1,28 @@
+.home_left_nav{
+  width: 240px;
+  height: auto;
+  background: $home_left_nav_bg;
+  color:　$home_left_nav_color;
+
+  .el-menu-item.is-active{
+    color: #2baee9 !important;
+  }
+  /*一级菜单标题*/
+  .el-submenu__title,.el-menu-item{
+    color:$home_left_nav_color;
+    &:hover{
+      background: $home_left_nav_hover_bg;
+    }
+  }
+  /*二级菜单所有*/
+  .el-submenu .el-menu{
+    background: $home_left_nav_2_bg;
+    border-left: 2px solid $home_left_nav_2_border;
+    .el-menu-item{
+      color: $home_left_nav_color;
+      &:hover{
+        background: $home_left_nav_hover_bg;
+      }
+    }
+  }
+}
